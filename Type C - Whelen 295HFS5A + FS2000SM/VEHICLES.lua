@@ -32,18 +32,21 @@ SIREN TONE TABLE:
 				I recommend creating/provideing instructions on how to replace these default sirens AND/OR provide premade sirenpacks. 
 ]]
 --Modify the table below to accurately represent each tone name
-tone_table = { "Airhorn", "Wail", "Yelp", "Priority", "CustomA", "CustomB", "CustomC", "CustomE", "CustomF", "CustomG", "Powercall", "QSiren", "Fire Yelp", "Pulsed Airhorn" } 
---[[				 1			2 		3		4			5		6		 7			8			 9			10			11			12			13				14
+tone_table = { "295-Airhorn", "295-Wail", "295-Yelp", "295-Piercer", "295-Hetro", "FS-Airhorn", "FS-Wail", "FS-Yelp", "FS-Priority", "FS-Manual", "Powercall", "QSiren", "Fire Yelp", "Pulsed Airhorn" } 
+--[[				  1			 2 			  3				4			5				6		 	7			8			 9			10			11			12			13				14
 
 EXAMPLE:
-paleto1 = {1**, 2, 3, 4} 
+paleto1 = {1**, 2, 3, 4, 5} 
 Where 'paleto1' is the vehicele's <gameName> as defined in vehicles.meta. Spaces will not work, underscores may work though as long as it matches in vehicle.meta. 
 Next to that is an array of assigned/allowed sirens IDs: 1=airhorn, 2=wail, 3=yelp, etc.
 **THE FIRST NUMBER IN THE ARRAY IS THE AIRHORN SLOT.
 ]]
 
---Type A: Basic Operation: operate same as v2 no additional siren tones implemented.
-DEFAULT = { 1, 2, 3, 4 } 							--Default is used by any vehicle without a table. 
+--Type C: 2 siren set up 1/2 one department 1/2 the other.
+DEFAULT = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 } 		--Default is used by any vehicle without a table. 
 FIRETRUK = { 12, 13, 14, 11 } 						--Fire Truck Audio (12 - Firetruck Airhorn, 13 - Firetruck Wail, 14 - Firetruck Yelp, 11 - Powercall)
-AMBULAN = { 1, 2, 3, 4, 11 } 						--Ambulance (1 - Airhorn, 2 - Wail, 3 - Yelp, 4 - Priority, 5 - Sweep Mode, 11 - Powercall)
+AMBULAN = { 1, 2, 3, 4, 5, 11 } 					--Ambulance (1 - Airhorn, 2 - Wail, 3 - Yelp, 4 - Priority, 5 - Sweep Mode, 11 - Powercall)
 LGUARD = { 1, 2, 3, 4, 11 } 						--LifeGuard (1 - Airhorn, 2 - Wail, 3 - Yelp, 4 - Priority, 11 - Powercall)
+
+--department1veh1 = { 1, 2, 3, 4, 5 }
+--department2veh1 = { 6, 7, 8, 9, 10 }

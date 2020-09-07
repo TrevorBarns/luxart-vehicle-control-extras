@@ -45,5 +45,5 @@ Next to that is an array of assigned/allowed sirens IDs: 1=airhorn, 2=wail, 3=ye
 --Type B: MAXIMIZE LEO Tones: operate maximizing avaliable tones for LEOs.
 DEFAULT = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 } 		--Default is used by any vehicle without a table. 
 FIRETRUK = { 12, 13, 14, 11 } 						--Fire Truck Audio (12 - Firetruck Airhorn, 13 - Firetruck Wail, 14 - Firetruck Yelp, 11 - Powercall)
-AMBULANCE = { 1, 2, 3, 4, 5, 11 } 					--Ambulance (1 - Airhorn, 2 - Wail, 3 - Yelp, 4 - Priority, 5 - Sweep Mode, 11 - Powercall)
+AMBULAN = { 1, 2, 3, 4, 5, 11 } 					--Ambulance (1 - Airhorn, 2 - Wail, 3 - Yelp, 4 - Priority, 5 - Sweep Mode, 11 - Powercall)
 LGUARD = { 1, 2, 3, 4, 11 } 						--LifeGuard (1 - Airhorn, 2 - Wail, 3 - Yelp, 4 - Priority, 11 - Powercall)
