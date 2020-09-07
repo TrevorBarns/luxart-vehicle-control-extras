@@ -1,6 +1,8 @@
 # luxart-vehicle-control-extras
 Repository of sirens and vehicles.lua used for examples with Luxart Vehicle Control. See project here: https://github.com/TrevorBarns/luxart-vehicle-control
 
+Community Upgrade Guides: https://drive.google.com/drive/folders/1trjNXnpmlh_5Q5syXESjwSODdFOFXBdE?usp=sharing
+
 ## LVC Siren Package Types
 ### Type A: Basic Operation: operate same as v2 no additional siren tones implemented.
 ### Type B: Maximize LEO Tones: most tones for LEOs (designed for single siren operation).
