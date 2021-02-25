@@ -24,9 +24,9 @@ SIREN TONE TABLE:
 	9 -  Manual Tone-Rumbler (RESIDENT_VEHICLES_SIREN_QUICK_02)				[SIREN_QUICK_02]
 	10 - EMPTY 		         (RESIDENT_VEHICLES_SIREN_QUICK_03)				[SIREN_QUICK_03]
 	11 - Powercall 		     (VEHICLES_HORNS_AMBULANCE_WARNING)				[AMBULANCE_WARNING]
-	12 - QSiren	 	         (VEHICLES_HORNS_FIRETRUCK_WARNING)				[FIRE_TRUCK_HORN]
-	13 - Fire Yelp 		     (RESIDENT_VEHICLES_SIREN_FIRETRUCK_WAIL_01)		[SIREN_FIRETRUCK_WAIL_01]
-	14 - Pulsed Airhorn 	 (RESIDENT_VEHICLES_SIREN_FIRETRUCK_QUICK_01)	[SIREN_FIRETRUCK_QUICK_01]
+	12 - Pulsed Airhorn	 	 (VEHICLES_HORNS_FIRETRUCK_WARNING)				[FIRE_TRUCK_HORN]
+	13 - QSiren		         (RESIDENT_VEHICLES_SIREN_FIRETRUCK_WAIL_01)		[SIREN_FIRETRUCK_WAIL_01]
+	14 - Fire Yelp 	         (RESIDENT_VEHICLES_SIREN_FIRETRUCK_QUICK_01)	[SIREN_FIRETRUCK_QUICK_01]
 ]]
 -- CHANGE SIREN NAMES, AUDIONAME, AUDIOREF
 SIRENS = {	
@@ -41,9 +41,9 @@ SIRENS = {
     --[[9]]	  { Name = "Maunal Tone-Rumbler",		String = "RESIDENT_VEHICLES_SIREN_QUICK_02",			Ref = 0 }, --9
     --[[10]]  { Name = "EMPTY",	String = "RESIDENT_VEHICLES_SIREN_QUICK_03", 			Ref = 0 }, --10
     --[[11]]  { Name = "Powercall", 	String = "VEHICLES_HORNS_AMBULANCE_WARNING", 			Ref = 0 }, --11
-    --[[12]]  { Name = "QSiren", 		String = "VEHICLES_HORNS_FIRETRUCK_WARNING", 			Ref = 0 }, --12
-    --[[13]]  { Name = "Fire Yelp", 	String = "RESIDENT_VEHICLES_SIREN_FIRETRUCK_WAIL_01", 	Ref = 0 }, --13
-    --[[14]]  { Name = "Pulsed Airhorn", 	String = "RESIDENT_VEHICLES_SIREN_FIRETRUCK_QUICK_01", 	Ref = 0 }, --14
+    --[[12]]  { Name = "Pulsed Airhorn", 		String = "VEHICLES_HORNS_FIRETRUCK_WARNING", 			Ref = 0 }, --12
+    --[[13]]  { Name = "Qsiren", 	String = "RESIDENT_VEHICLES_SIREN_FIRETRUCK_WAIL_01", 	Ref = 0 }, --13
+    --[[14]]  { Name = "Fire Yelp", 	String = "RESIDENT_VEHICLES_SIREN_FIRETRUCK_QUICK_01", 	Ref = 0 }, --14
     }
     
     
