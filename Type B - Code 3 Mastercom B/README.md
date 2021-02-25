@@ -10,9 +10,9 @@ SIRENS = {
 --[[5]]	  { Name = "Hyper", 		String = "RESIDENT_VEHICLES_SIREN_WAIL_01", 			Ref = 0 }, --5
 --[[6]]	  { Name = "Hyper2", 		String = "RESIDENT_VEHICLES_SIREN_WAIL_02", 			Ref = 0 }, --6
 --[[7]]	  { Name = "Hyper-Sweep", 		String = "RESIDENT_VEHICLES_SIREN_WAIL_03", 			Ref = 0 }, --7
---[[8]]	  { Name = "Empty (Wail)", 		String = "RESIDENT_VEHICLES_SIREN_QUICK_01", 			Ref = 0 }, --8
---[[9]]	  { Name = "Empty (Yelp)",		String = "RESIDENT_VEHICLES_SIREN_QUICK_02",			Ref = 0 }, --9
---[[10]]  { Name = "Empty (Priority)", 	String = "RESIDENT_VEHICLES_SIREN_QUICK_03", 			Ref = 0 }, --10
+--[[8]]	  { Name = "Empty", 		String = "RESIDENT_VEHICLES_SIREN_QUICK_01", 			Ref = 0 }, --8
+--[[9]]	  { Name = "Empty",		String = "RESIDENT_VEHICLES_SIREN_QUICK_02",			Ref = 0 }, --9
+--[[10]]  { Name = "Empty", 	String = "RESIDENT_VEHICLES_SIREN_QUICK_03", 			Ref = 0 }, --10
 --[[11]]  { Name = "Powercall", 	String = "VEHICLES_HORNS_AMBULANCE_WARNING", 			Ref = 0 }, --11
 --[[12]]  { Name = "Pulsed Airhorn", 		String = "VEHICLES_HORNS_FIRETRUCK_WARNING", 			Ref = 0 }, --12
 --[[13]]  { Name = "QSiren", 	String = "RESIDENT_VEHICLES_SIREN_FIRETRUCK_WAIL_01", 	Ref = 0 }, --13
