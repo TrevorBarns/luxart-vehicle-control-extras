@@ -2,7 +2,7 @@
 ---------------------------------------------------
 LUXART VEHICLE CONTROL V3 (FOR FIVEM)
 ---------------------------------------------------
-Last revision: FEBRUARY 23 2021  (VERS. 3.2.0)
+Last revision: FEBRUARY 24 2021  (VERS. 3.2.0)
 Coded by Lt.Caine
 ELS Clicks by Faction
 Additions by TrevorBarns
@@ -41,9 +41,9 @@ SIRENS = {
     --[[9]]	  { Name = "FS-Priority",		String = "RESIDENT_VEHICLES_SIREN_QUICK_02",			Ref = 0 }, --9
     --[[10]]  { Name = "FS-Manual",	String = "RESIDENT_VEHICLES_SIREN_QUICK_03", 			Ref = 0 }, --10
     --[[11]]  { Name = "Powercall", 	String = "VEHICLES_HORNS_AMBULANCE_WARNING", 			Ref = 0 }, --11
-    --[[12]]  { Name = "QSiren", 		String = "VEHICLES_HORNS_FIRETRUCK_WARNING", 			Ref = 0 }, --12
-    --[[13]]  { Name = "Fire Yelp", 	String = "RESIDENT_VEHICLES_SIREN_FIRETRUCK_WAIL_01", 	Ref = 0 }, --13
-    --[[14]]  { Name = "Pulsed Airhorn", 	String = "RESIDENT_VEHICLES_SIREN_FIRETRUCK_QUICK_01", 	Ref = 0 }, --14
+    --[[12]]  { Name = "Pulsed Airhorn", 		String = "VEHICLES_HORNS_FIRETRUCK_WARNING", 			Ref = 0 }, --12
+    --[[13]]  { Name = "QSiren", 	String = "RESIDENT_VEHICLES_SIREN_FIRETRUCK_WAIL_01", 	Ref = 0 }, --13
+    --[[14]]  { Name = "Fire Yelp", 	String = "RESIDENT_VEHICLES_SIREN_FIRETRUCK_QUICK_01", 	Ref = 0 }, --14
     }
     
     

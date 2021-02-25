@@ -2,7 +2,7 @@
 ---------------------------------------------------
 LUXART VEHICLE CONTROL V3 (FOR FIVEM)
 ---------------------------------------------------
-Last revision: FEBRUARY 23 2021  (VERS. 3.2.0)
+Last revision: FEBRUARY 24 2021  (VERS. 3.2.0)
 Coded by Lt.Caine
 ELS Clicks by Faction
 Additions by TrevorBarns
@@ -20,13 +20,13 @@ SIREN TONE TABLE:
 	5 -  Wail-Rumbler 	    (RESIDENT_VEHICLES_SIREN_WAIL_01)				[SIREN_WAIL_01]
 	6 -  Yelp-Rumbler	    (RESIDENT_VEHICLES_SIREN_WAIL_02)				[SIREN_WAIL_02]
 	7 -  Priority-Rumbler 	(RESIDENT_VEHICLES_SIREN_WAIL_03)				[SIREN_WAIL_03]
-	8 -  Sweep-1 		    (RESIDENT_VEHICLES_SIREN_QUICK_01)				[SIREN_QUICK_01]
+	8 -  EMPTY 		        (RESIDENT_VEHICLES_SIREN_QUICK_01)				[SIREN_QUICK_01]
 	9 -  EMPTY 		        (RESIDENT_VEHICLES_SIREN_QUICK_02)				[SIREN_QUICK_02]
 	10 - EMPTY 		        (RESIDENT_VEHICLES_SIREN_QUICK_03)				[SIREN_QUICK_03]
 	11 - Powercall 		    (VEHICLES_HORNS_AMBULANCE_WARNING)				[AMBULANCE_WARNING]
-	12 - QSiren	 	        (VEHICLES_HORNS_FIRETRUCK_WARNING)				[FIRE_TRUCK_HORN]
-	13 - Fire Yelp 		    (RESIDENT_VEHICLES_SIREN_FIRETRUCK_WAIL_01)		[SIREN_FIRETRUCK_WAIL_01]
-	14 - Pulsed Airhorn 	(RESIDENT_VEHICLES_SIREN_FIRETRUCK_QUICK_01)	[SIREN_FIRETRUCK_QUICK_01]
+	12 - Pulsed Airhorn	 	(VEHICLES_HORNS_FIRETRUCK_WARNING)				[FIRE_TRUCK_HORN]
+	13 - QSiren 		    (RESIDENT_VEHICLES_SIREN_FIRETRUCK_WAIL_01)		[SIREN_FIRETRUCK_WAIL_01]
+	14 - Fire Yelp 	        (RESIDENT_VEHICLES_SIREN_FIRETRUCK_QUICK_01)	[SIREN_FIRETRUCK_QUICK_01]
 ]]
 -- CHANGE SIREN NAMES, AUDIONAME, AUDIOREF
 SIRENS = {	
@@ -37,13 +37,13 @@ SIRENS = {
     --[[5]]	  { Name = "Wail-Rumbler", 		String = "RESIDENT_VEHICLES_SIREN_WAIL_01", 			Ref = 0 }, --5
     --[[6]]	  { Name = "Yelp-Rumbler", 		String = "RESIDENT_VEHICLES_SIREN_WAIL_02", 			Ref = 0 }, --6
     --[[7]]	  { Name = "Priority-Rumbler", 		String = "RESIDENT_VEHICLES_SIREN_WAIL_03", 			Ref = 0 }, --7
-    --[[8]]	  { Name = "Sweep-1", 		String = "RESIDENT_VEHICLES_SIREN_QUICK_01", 			Ref = 0 }, --8
+    --[[8]]	  { Name = "EMPTY", 		String = "RESIDENT_VEHICLES_SIREN_QUICK_01", 			Ref = 0 }, --8
     --[[9]]	  { Name = "EMPTY",		String = "RESIDENT_VEHICLES_SIREN_QUICK_02",			Ref = 0 }, --9
     --[[10]]  { Name = "EMPTY",	String = "RESIDENT_VEHICLES_SIREN_QUICK_03", 			Ref = 0 }, --10
     --[[11]]  { Name = "Powercall", 	String = "VEHICLES_HORNS_AMBULANCE_WARNING", 			Ref = 0 }, --11
-    --[[12]]  { Name = "QSiren", 		String = "VEHICLES_HORNS_FIRETRUCK_WARNING", 			Ref = 0 }, --12
-    --[[13]]  { Name = "Fire Yelp", 	String = "RESIDENT_VEHICLES_SIREN_FIRETRUCK_WAIL_01", 	Ref = 0 }, --13
-    --[[14]]  { Name = "Pulsed Airhorn", 	String = "RESIDENT_VEHICLES_SIREN_FIRETRUCK_QUICK_01", 	Ref = 0 }, --14
+    --[[12]]  { Name = "Pulsed Airhorn", 		String = "VEHICLES_HORNS_FIRETRUCK_WARNING", 			Ref = 0 }, --12
+    --[[13]]  { Name = "QSiren", 	String = "RESIDENT_VEHICLES_SIREN_FIRETRUCK_WAIL_01", 	Ref = 0 }, --13
+    --[[14]]  { Name = "Fire Yelp", 	String = "RESIDENT_VEHICLES_SIREN_FIRETRUCK_QUICK_01", 	Ref = 0 }, --14
     }
     
     
