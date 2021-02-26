@@ -24,7 +24,7 @@ SIRENS = {
 SIREN_ASSIGNMENTS = {
 --['<gameName>'] = {tones},
 ['DEFAULT'] = { 1, 2, 3, 4, 5 }, 
-['PD1'] = { 1, 2, 3, 4, 5 }     --Federal Signal Unitrol System.				
+['PD1'] = { 1, 2, 3, 4, 5 }     --Federal Signal Unitrol System				
 ['SO1'] = { 6, 7, 8, 9, 10 }    --Soundoff Signal 400 Series Handheld  
 
 ['FIRETRUK'] = { 12, 13, 14, 11 } 	
@@ -36,6 +36,6 @@ SIREN_ASSIGNMENTS = {
 
 
 #### CREDITS:
-* All Federal Signal and Soundoff Tones were obtained from the manafacturs site
+* All Federal Signal Unitrol and Soundoff Signal 400 Series Tones were obtained from the manafacturs site
 * Misc. Fire by _MrLucky8_ - [LCPDFR - American Fire Sirens 1.1](https://www.lcpdfr.com/downloads/gta5mods/audio/13310-american-fire-sirens)
 * _arkhunter_ for updates and tone name corrections
