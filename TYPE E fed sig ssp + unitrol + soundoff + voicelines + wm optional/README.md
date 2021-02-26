@@ -1,4 +1,4 @@
-# Type C - Federal Signal UNITROL + Soundoff Signal nERGY 400
+# Type E Federal Signal SSP + UniTrol + Soundoff 400 or 500 series. 
 
 #### ACCURATE SIREN TABLE:
 ```

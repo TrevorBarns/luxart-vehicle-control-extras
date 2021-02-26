@@ -1,5 +1,4 @@
-# Type C - Federal Signal UNITROL + Soundoff Signal nERGY 400
-
+# Type D : Fed Sig ss + unitrol + soundoff + fire. 
 #### ACCURATE SIREN TABLE:
 ```
 SIRENS = {	
