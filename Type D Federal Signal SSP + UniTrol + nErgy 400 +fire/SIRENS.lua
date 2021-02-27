@@ -2,7 +2,7 @@
 ---------------------------------------------------
 LUXART VEHICLE CONTROL V3 (FOR FIVEM)
 ---------------------------------------------------
-Last revision: FEBRUARY 24 2021  (VERS. 3.2.0)
+Last revision: FEBRUARY 26 2021  (VERS. 3.2.0)
 Coded by Lt.Caine
 ELS Clicks by Faction
 Additions by TrevorBarns
@@ -64,7 +64,8 @@ SIREN_ASSIGNMENTS = {
 ['SO1'] = { 1, 5, 6, 7 }     --Federal Signal Unitrol
 ['HP1'] = { 1, 8, 9, 10 }	 --Soundoff Signal 400 Series
 ['FIRETRUK'] = { 12, 13, 14, 11 } 	
-['AMBULANCE1'] = { 1, 2, 3, 4, 5, 11 } 	--Ambulance 1 w/ department 1 audio (Federal Signal Unitrol + Powercall)
-['AMBULANCE2'] = { 6, 7, 8, 9, 10, 11 } --Ambulance 2 w/ department 2 audio (Soundoff Signal 400 series + Powercall)
+['AMBULANCE1'] = { 1, 2, 3, 4, 11 } 	--Ambulance 1 w/ department 1 audio (Federal Signal SSP + Powercall)
+['AMBULANCE2'] = { 1, 5, 6, 7, 11 } --Ambulance 2 w/ department 2 audio (Federal Signal Unitrol + Powercall)
+['AMBULANCE3'] = { 1, 8, 9, 10, 11 } --Ambulance 3 w/ department 3 audio (Soundoff Signal 400 series + Powercall)
 }
 ]]
