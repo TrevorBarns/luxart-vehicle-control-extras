@@ -38,6 +38,7 @@ SIREN TONE TABLE:
 	22 - Police Canine Search   (DLC_WMSIRENS_SOUNDSET)     				[SIREN_HOTEL]
 	]]
 -- CHANGE SIREN NAMES, AUDIONAME, AUDIOREF
+RequestScriptAudioBank("DLC_WMSIRENS\\SIRENPACK_ONE", false)
 SIRENS = {	
 --[[1]]	  { Name = "SSP-Airhorn", 		String = "SIRENS_AIRHORN", 								Ref = 0 }, --1
 --[[2]]	  { Name = "SSP-Wail", 			String = "VEHICLES_HORNS_SIREN_1", 						Ref = 0 }, --2
