@@ -59,7 +59,7 @@ SIRENS = {
 --[[16]]  { Name = "Powercall-RUMBLER", 		String = "SIREN_BRAVO", 	Ref = "DLC_WMSIRENS_SOUNDSET" }, --16
 --[[17]]  { Name = "Do Not Interfere", 		String = "SIREN_CHARLIE", 	Ref = "DLC_WMSIRENS_SOUNDSET" }, --17
 --[[18]]  { Name = "Leave Vicinity", 		String = "SIREN_DELTA", 	Ref = "DLC_WMSIRENS_SOUNDSET" }, --18
---[[19]]  { Name = "No Loitering", 		String = "SIREN_ECHO", 	Ref = "DLC_WMSIRENS_SOUNDSET"0 }, --19
+--[[19]]  { Name = "No Loitering", 		String = "SIREN_ECHO", 	Ref = "DLC_WMSIRENS_SOUNDSET" }, --19
 --[[20]]  { Name = "Pull To The Right", 		String = "SIREN_FOXTROT", 	Ref = "DLC_WMSIRENS_SOUNDSET" }, --20
 --[[21]]  { Name = "Slow Down", 		String = "SIREN_GOLF", 	Ref = "DLC_WMSIRENS_SOUNDSET" }, --21
 --[[22]]  { Name = "Police Canine Search", 		String = "SIREN_HOTEL", 	Ref = "DLC_WMSIRENS_SOUNDSET" }, --22
