@@ -27,7 +27,16 @@ SIREN TONE TABLE:
 	12 - Pulsed Airhorn	 	(VEHICLES_HORNS_FIRETRUCK_WARNING)				[FIRE_TRUCK_HORN]
 	13 - QSiren 		    (RESIDENT_VEHICLES_SIREN_FIRETRUCK_WAIL_01)		[SIREN_FIRETRUCK_WAIL_01]
 	14 - Fire Yelp       	(RESIDENT_VEHICLES_SIREN_FIRETRUCK_QUICK_01)	[SIREN_FIRETRUCK_QUICK_01]
-]]
+	Below this line requires the use of WM-ServerSirens using the vehicles.awc Attached in the WM-Sirens Folder. It is not needed to use it but will add the below to the useable sirens. 	
+	15 - UNI-Hetro          	(DLC_WMSIRENS_SOUNDSET)       				[SIREN_APLHA]
+	16 - Powercall-RUMBLER  	(DLC_WMSIRENS_SOUNDSET)   					[SIREN_BRAVO]
+	17 - Do Not Interfere   	(DLC_WMSIRENS_SOUNDSET)  					[SIREN_CHARLIE]
+	18 - Leave Vicinity     	(DLC_WMSIRENS_SOUNDSET)   					[SIREN_DELTA]
+	19 - No Loitering   		(DLC_WMSIRENS_SOUNDSET)    					[SIREN_ECHO]
+	20 - Pull To The Right     	(DLC_WMSIRENS_SOUNDSET)   					[SIREN_FOXTROT]
+	21 - Slow Down    			(DLC_WMSIRENS_SOUNDSET)        				[SIREN_GOLF]
+	22 - Police Canine Search   (DLC_WMSIRENS_SOUNDSET)     				[SIREN_HOTEL]
+	]]
 -- CHANGE SIREN NAMES, AUDIONAME, AUDIOREF
 SIRENS = {	
 --[[1]]	  { Name = "SSP-Airhorn", 		String = "SIRENS_AIRHORN", 								Ref = 0 }, --1
@@ -44,6 +53,15 @@ SIRENS = {
 --[[12]]  { Name = "Pulsed Airhorn", 	String = "VEHICLES_HORNS_FIRETRUCK_WARNING", 			Ref = 0 }, --12
 --[[13]]  { Name = "QSiren", 			String = "RESIDENT_VEHICLES_SIREN_FIRETRUCK_WAIL_01", 	Ref = 0 }, --13
 --[[14]]  { Name = "Fire Yelp", 		String = "RESIDENT_VEHICLES_SIREN_FIRETRUCK_QUICK_01", 	Ref = 0 }, --14
+--Below this line requires the use of WM-ServerSirens using the vehicles.awc Attached in the WM-Sirens Folder. It is not needed to use it but will add the below to the useable sirens.
+--[[15]]  { Name = "UNI-Hetro", 		String = "SIREN_ALPHA", 	Ref = "DLC_WMSIRENS_SOUNDSET" }, --15
+--[[16]]  { Name = "Powercall-RUMBLER", 		String = "SIREN_BRAVO", 	Ref = "DLC_WMSIRENS_SOUNDSET" }, --16
+--[[17]]  { Name = "Do Not Interfere", 		String = "SIREN_CHARLIE", 	Ref = "DLC_WMSIRENS_SOUNDSET" }, --17
+--[[18]]  { Name = "Leave Vicinity", 		String = "SIREN_DELTA", 	Ref = "DLC_WMSIRENS_SOUNDSET" }, --18
+--[[19]]  { Name = "No Loitering", 		String = "SIREN_ECHO", 	Ref = "DLC_WMSIRENS_SOUNDSET"0 }, --19
+--[[20]]  { Name = "Pull To The Right", 		String = "SIREN_FOXTROT", 	Ref = "DLC_WMSIRENS_SOUNDSET" }, --20
+--[[21]]  { Name = "Slow Down", 		String = "SIREN_GOLF", 	Ref = "DLC_WMSIRENS_SOUNDSET" }, --21
+--[[22]]  { Name = "Police Canine Search", 		String = "SIREN_HOTEL", 	Ref = "DLC_WMSIRENS_SOUNDSET" }, --22
 }
 
 
