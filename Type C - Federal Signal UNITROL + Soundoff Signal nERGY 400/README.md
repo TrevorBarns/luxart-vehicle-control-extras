@@ -8,11 +8,11 @@ SIRENS = {
 --[[3]]	  { Name = "UNI-Yelp", 			             String = "VEHICLES_HORNS_SIREN_2", 						Ref = 0 }, --3
 --[[4]]	  { Name = "UNI-Futura", 		             String = "VEHICLES_HORNS_POLICE_WARNING", 				Ref = 0 }, --4
 --[[5]]	  { Name = "UNI-Hetro", 		             String = "RESIDENT_VEHICLES_SIREN_WAIL_01", 			Ref = 0 }, --5
---[[6]]	  { Name = "nF-Airhorn", 		             String = "RESIDENT_VEHICLES_SIREN_WAIL_02", 			Ref = 0 }, --6
---[[7]]	  { Name = "nF-Wail", 			             String = "RESIDENT_VEHICLES_SIREN_WAIL_03", 			Ref = 0 }, --7
---[[8]]	  { Name = "nF-Yelp", 			             String = "RESIDENT_VEHICLES_SIREN_QUICK_01", 			Ref = 0 }, --8
---[[9]]	  { Name = "nF-Piercer",		             String = "RESIDENT_VEHICLES_SIREN_QUICK_02",			Ref = 0 }, --9
---[[10]]  { Name = "nF-Super HI-LO-Piercer",		 String = "RESIDENT_VEHICLES_SIREN_QUICK_03", 			Ref = 0 }, --10
+--[[6]]	  { Name = "nErgy-Airhorn", 		             String = "RESIDENT_VEHICLES_SIREN_WAIL_02", 			Ref = 0 }, --6
+--[[7]]	  { Name = "nErgy-Wail", 			             String = "RESIDENT_VEHICLES_SIREN_WAIL_03", 			Ref = 0 }, --7
+--[[8]]	  { Name = "nErgy-Yelp", 			             String = "RESIDENT_VEHICLES_SIREN_QUICK_01", 			Ref = 0 }, --8
+--[[9]]	  { Name = "nErgy-Piercer",		             String = "RESIDENT_VEHICLES_SIREN_QUICK_02",			Ref = 0 }, --9
+--[[10]]  { Name = "nErgy-Super HI-LO-Piercer",		 String = "RESIDENT_VEHICLES_SIREN_QUICK_03", 			Ref = 0 }, --10
 --[[11]]  { Name = "Powercall", 		             String = "VEHICLES_HORNS_AMBULANCE_WARNING", 			Ref = 0 }, --11
 --[[12]]  { Name = "Pulsed Airhorn", 	           String = "VEHICLES_HORNS_FIRETRUCK_WARNING", 			Ref = 0 }, --12
 --[[13]]  { Name = "QSiren", 			               String = "RESIDENT_VEHICLES_SIREN_FIRETRUCK_WAIL_01", 	Ref = 0 }, --13

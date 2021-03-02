@@ -7,8 +7,8 @@ Community Upgrade Guides: https://drive.google.com/drive/folders/1trjNXnpmlh_5Q5
 ### Type A: Basic Operation: operate same as v2 no additional siren tones implemented.
 ### Type B: Maximize LEO Tones: most tones for LEOs (designed for single siren operation).
 ### Type C: Two Department Operation w/ Fire Rescue (1/2 of tones assigned to one department, 1/2 to the other while retaining Fire Rescue Tones)
-### Type D: Three Department Operation w/ Shared Airhorn & Fire Rescue (1/3 tones assigned to department X, 1/3 to department Y, 1/3 to department Z; all sharing one airhorn while retaining Fire Rescue Tones)
-
+### Type D: Three Department Operation w/ Shared Airhorn & Fire Rescue (1/3 tones assigned to department X, 1/3 to department Y, 1/3 to department Z; all sharing one airhorn while retaining Fire Rescue Tones) 
+ 
 ## GTA V vehicles.awc Restrictions
 Default sirens (what LVC uses) are located in `RESIDENT.rpf/vehicles.awc`. GTA V has a hard cap on vehicles.awc size: __16,132kb__. Any vehicles.awc over that even by 1kb will result in the lose of audio. Always ensure your vehicles.awc is below 16,133kb when installing new sirens. All RESIDENT.rpfs included in this repo will satisify that requirement. 
 ### How to reduce vehicle.awc file size:

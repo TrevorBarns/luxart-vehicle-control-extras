@@ -18,16 +18,16 @@ SIREN TONE TABLE:
 	3 -  UNI-Yelp 			(VEHICLES_HORNS_SIREN_2)						[SIREN_2]
 	4 -  UNI-Futura 		(VEHICLES_HORNS_POLICE_WARNING)					[POLICE_WARNING]
 	5 -  UNI-Hetro 		    (RESIDENT_VEHICLES_SIREN_WAIL_01)				[SIREN_WAIL_01]
-	6 -  nF-Airhorn 		(RESIDENT_VEHICLES_SIREN_WAIL_02)				[SIREN_WAIL_02]
-	7 -  nF-Wail 		    (RESIDENT_VEHICLES_SIREN_WAIL_03)				[SIREN_WAIL_03]
-	8 -  nF-Yelp 		    (RESIDENT_VEHICLES_SIREN_QUICK_01)				[SIREN_QUICK_01]
-	9 -  nF-Piercer 		(RESIDENT_VEHICLES_SIREN_QUICK_02)				[SIREN_QUICK_02]
-	10 - nF-Super HI-LO-Piercer 	(RESIDENT_VEHICLES_SIREN_QUICK_03)				[SIREN_QUICK_03]
+	6 -  nErgy-Airhorn 		(RESIDENT_VEHICLES_SIREN_WAIL_02)				[SIREN_WAIL_02]
+	7 -  nErgy-Wail 		    (RESIDENT_VEHICLES_SIREN_WAIL_03)				[SIREN_WAIL_03]
+	8 -  nErgy-Yelp 		    (RESIDENT_VEHICLES_SIREN_QUICK_01)				[SIREN_QUICK_01]
+	9 -  nErgy-Piercer 		(RESIDENT_VEHICLES_SIREN_QUICK_02)				[SIREN_QUICK_02]
+	10 - nErgy-Super HI-LO-Piercer 	(RESIDENT_VEHICLES_SIREN_QUICK_03)				[SIREN_QUICK_03]
 	11 - Powercall 		    (VEHICLES_HORNS_AMBULANCE_WARNING)				[AMBULANCE_WARNING]
 	12 - Pulsed Airhorn	 	(VEHICLES_HORNS_FIRETRUCK_WARNING)				[FIRE_TRUCK_HORN]
 	13 - QSiren 		    (RESIDENT_VEHICLES_SIREN_FIRETRUCK_WAIL_01)		[SIREN_FIRETRUCK_WAIL_01]
 	14 - Fire Yelp       	(RESIDENT_VEHICLES_SIREN_FIRETRUCK_QUICK_01)	[SIREN_FIRETRUCK_QUICK_01]
-]]
+	]]
 -- CHANGE SIREN NAMES, AUDIONAME, AUDIOREF
 SIRENS = {	
 --[[1]]	  { Name = "UNI-Airhorn", 		String = "SIRENS_AIRHORN", 								Ref = 0 }, --1
@@ -35,11 +35,11 @@ SIRENS = {
 --[[3]]	  { Name = "UNI-Yelp", 			String = "VEHICLES_HORNS_SIREN_2", 						Ref = 0 }, --3
 --[[4]]	  { Name = "UNI-Futura", 		String = "VEHICLES_HORNS_POLICE_WARNING", 				Ref = 0 }, --4
 --[[5]]	  { Name = "UNI-Hetro", 		String = "RESIDENT_VEHICLES_SIREN_WAIL_01", 			Ref = 0 }, --5
---[[6]]	  { Name = "nF-Airhorn", 		String = "RESIDENT_VEHICLES_SIREN_WAIL_02", 			Ref = 0 }, --6
---[[7]]	  { Name = "nF-Wail", 			String = "RESIDENT_VEHICLES_SIREN_WAIL_03", 			Ref = 0 }, --7
---[[8]]	  { Name = "nF-Yelp", 			String = "RESIDENT_VEHICLES_SIREN_QUICK_01", 			Ref = 0 }, --8
---[[9]]	  { Name = "nF-Piercer",		String = "RESIDENT_VEHICLES_SIREN_QUICK_02",			Ref = 0 }, --9
---[[10]]  { Name = "nF-Super HI-LO-Piercer",		String = "RESIDENT_VEHICLES_SIREN_QUICK_03", 			Ref = 0 }, --10
+--[[6]]	  { Name = "nErgy-Airhorn", 		String = "RESIDENT_VEHICLES_SIREN_WAIL_02", 			Ref = 0 }, --6
+--[[7]]	  { Name = "nErgy-Wail", 			String = "RESIDENT_VEHICLES_SIREN_WAIL_03", 			Ref = 0 }, --7
+--[[8]]	  { Name = "nErgy-Yelp", 			String = "RESIDENT_VEHICLES_SIREN_QUICK_01", 			Ref = 0 }, --8
+--[[9]]	  { Name = "nErgy-Piercer",		String = "RESIDENT_VEHICLES_SIREN_QUICK_02",			Ref = 0 }, --9
+--[[10]]  { Name = "nErgy-Super HI-LO-Piercer",		String = "RESIDENT_VEHICLES_SIREN_QUICK_03", 			Ref = 0 }, --10
 --[[11]]  { Name = "Powercall", 		String = "VEHICLES_HORNS_AMBULANCE_WARNING", 			Ref = 0 }, --11
 --[[12]]  { Name = "Pulsed Airhorn", 	String = "VEHICLES_HORNS_FIRETRUCK_WARNING", 			Ref = 0 }, --12
 --[[13]]  { Name = "QSiren", 			String = "RESIDENT_VEHICLES_SIREN_FIRETRUCK_WAIL_01", 	Ref = 0 }, --13
