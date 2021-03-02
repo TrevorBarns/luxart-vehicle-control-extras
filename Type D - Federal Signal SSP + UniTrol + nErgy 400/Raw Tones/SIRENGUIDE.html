@@ -5,7 +5,7 @@
 table.steelBlueCols {
   border: 4px solid #555555;
   background-color: #555555;
-  width: 400px;
+  width: 550px;
   text-align: center;
   border-collapse: collapse;
 }
@@ -53,7 +53,7 @@ table.steelBlueCols tfoot .links a{
 <body>
 <table class="steelBlueCols">
 	<thead>
-	<tr><th colspan=2>Whelen 295HFS5A & FS2000SM</th></tr>
+	<tr><th colspan=2>Federal Signal SSP + UniTrol + nErgy 400</th></tr>
 	<tr>
 	<th>Name</th>
 	<th>Audio</th>
@@ -61,36 +61,57 @@ table.steelBlueCols tfoot .links a{
 	</thead>
 	<tbody>
 	<tr>
-	<td>295-AIRHORN</td><td><audio controls name="sirens"><source src="AIRHORN_EQD.wav" type="audio/wav"></audio></td></tr>
+	<td>SSP-Airhorn</td><td><audio controls name="sirens"><source src="AIRHORN_EQD.wav" type="audio/wav"></audio></td></tr>
 	<tr>
-	<td>295-WAIL</td><td><audio controls name="sirens"><source src="SIREN_PA20A_WAIL.wav" type="audio/wav"></audio>
+	<td>SSP-Wail</td><td><audio controls name="sirens"><source src="SIREN_PA20A_WAIL.wav" type="audio/wav"></audio>
 	<tr>
-	<td>295-YELP</td><td><audio controls name="sirens"><source src="SIREN_2.wav" type="audio/wav"></audio>
+	<td>SSP-Yelp</td><td><audio controls name="sirens"><source src="SIREN_2.wav" type="audio/wav"></audio>
 	<tr>
-	<td>295-PIERCER</td><td><audio controls name="sirens"><source src="POLICE_WARNING.wav" type="audio/wav"></audio>
+	<td>SSP-Priority</td><td><audio controls name="sirens"><source src="POLICE_WARNING.wav" type="audio/wav"></audio>
 	<tr>
-	<td>295-HETRO</td><td><audio controls name="sirens"><source src="SIREN_WAIL_01.wav" type="audio/wav"></audio>
+	<td>UNI-Wail</td><td><audio controls name="sirens"><source src="SIREN_WAIL_01.wav" type="audio/wav"></audio>
 	<tr>
-	<td>FS-AIRHORN</td><td><audio controls name="sirens"><source src="SIREN_WAIL_02.wav" type="audio/wav"></audio>
+	<td>UNI-Yelp</td><td><audio controls name="sirens"><source src="SIREN_WAIL_02.wav" type="audio/wav"></audio>
 	<tr>
-	<td>FS-WAIL</td><td><audio controls name="sirens"><source src="SIREN_WAIL_03.wav" type="audio/wav"></audio>
+	<td>UNI-Futura</td><td><audio controls name="sirens"><source src="SIREN_WAIL_03.wav" type="audio/wav"></audio>
 	<tr>
-	<td>FS-YELP</td><td><audio controls name="sirens"><source src="SIREN_QUICK_01.wav" type="audio/wav"></audio>
+	<td>nErgy-Wail</td><td><audio controls name="sirens"><source src="SIREN_QUICK_01.wav" type="audio/wav"></audio>
 	<tr>
-	<td>FS-PRIORITY</td><td><audio controls name="sirens"><source src="SIREN_QUICK_02.wav" type="audio/wav"></audio>
+	<td>nErgy-Yelp</td><td><audio controls name="sirens"><source src="SIREN_QUICK_02.wav" type="audio/wav"></audio>
 	<tr>
-	<td>FS-MANUAL</td><td><audio controls name="sirens"><source src="SIREN_QUICK_03.wav" type="audio/wav"></audio>
+	<td>nErgy-Piercer</td><td><audio controls name="sirens"><source src="SIREN_QUICK_03.wav" type="audio/wav"></audio>
+	<tr><th colspan=2 style="color: white; text-size: 19px;">WM-ServerSirens</th></tr>
+	<tr>
+	<td>UNI-Hetro</td><td><audio controls name="sirens"><source src="SIREN_ALPHA.wav" type="audio/wav"></audio>
+	<tr>
+	<td>Powercall-RUMBLER</td><td><audio controls name="sirens"><source src="SIREN_BRAVO.wav" type="audio/wav"></audio>
+	<tr>
+	<td>Do Not Interfere</td><td><audio controls name="sirens"><source src="SIREN_CHARLIE.wav" type="audio/wav"></audio>
+	<tr>
+	<td>Leave Vicinity</td><td><audio controls name="sirens"><source src="SIREN_DELTA.wav" type="audio/wav"></audio>
+	<tr>
+	<td>No Loitering</td><td><audio controls name="sirens"><source src="SIREN_ECHO.wav" type="audio/wav"></audio>
+	<tr>
+	<td>Pull To The Right</td><td><audio controls name="sirens"><source src="SIREN_FOXTROT.wav" type="audio/wav"></audio>
+	<tr>
+	<td>Slow Down</td><td><audio controls name="sirens"><source src="SIREN_GOLF.wav" type="audio/wav"></audio>
+	<tr>
+	<td>Police Canine Search</td><td><audio controls name="sirens"><source src="SIREN_HOTEL.wav" type="audio/wav"></audio>
 	</tbody>
 	</tr>
 </table>
 
 
 <script>
-  var audio = document.getElementsByName("sirens");
-  for (i = 0; i < audio.length; i++) {
-		audio[i].volume = 0.02;
-  }
-
+document.addEventListener('play', function(e){  
+    var audios = document.getElementsByTagName('audio');  
+    for(var i = 0, len = audios.length; i < len;i++){  
+		audios[i].volume = 0.02;
+        if(audios[i] != e.target){  
+            audios[i].pause();  
+        }  
+    }  
+}, true);
 </script>
 
 </body>
