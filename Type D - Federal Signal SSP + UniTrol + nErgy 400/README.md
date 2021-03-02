@@ -16,7 +16,10 @@ SIRENS = {
 --[[12]]  { Name = "Pulsed Airhorn", 	String = "VEHICLES_HORNS_FIRETRUCK_WARNING", 	Ref = 0 }, --12
 --[[13]]  { Name = "QSiren", 	        String = "RESIDENT_VEHICLES_SIREN_FIRETRUCK_WAIL_01", 	Ref = 0 }, --13
 --[[14]]  { Name = "Fire Yelp", 	String = "RESIDENT_VEHICLES_SIREN_FIRETRUCK_QUICK_01", 	Ref = 0 }, --14
---Below this line requires the use of WM-ServerSirens using the vehicles.awc Attached in the WM-Sirens Folder. It is not needed to use it but will add the below to the useable sirens.
+
+--[[Below this line requires the use of WM-ServerSirens using the vehicles.awc Attached in the WM-Sirens Folder. 
+    It is not needed to use it but will add the below to the useable sirens.]]
+
 --[[15]]  { Name = "UNI-Hetro", 	String = "SIREN_ALPHA", 	Ref = "DLC_WMSIRENS_SOUNDSET" }, --15
 --[[16]]  { Name = "Powercall-RUMBLER", String = "SIREN_BRAVO", 	Ref = "DLC_WMSIRENS_SOUNDSET" }, --16
 --[[17]]  { Name = "Do Not Interfere", 	String = "SIREN_CHARLIE", 	Ref = "DLC_WMSIRENS_SOUNDSET" }, --17
