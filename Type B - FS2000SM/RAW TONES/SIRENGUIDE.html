@@ -86,11 +86,15 @@ table.steelBlueCols tfoot .links a{
 
 
 <script>
-  var audio = document.getElementsByName("sirens");
-  for (i = 0; i < audio.length; i++) {
-		audio[i].volume = 0.02;
-  }
-
+document.addEventListener('play', function(e){  
+    var audios = document.getElementsByTagName('audio');  
+    for(var i = 0, len = audios.length; i < len;i++){  
+		audios[i].volume = 0.02;
+        if(audios[i] != e.target){  
+            audios[i].pause();  
+        }  
+    }  
+}, true);
 </script>
 
 </body>
