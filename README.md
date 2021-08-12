@@ -1,5 +1,9 @@
-# luxart-vehicle-control-extras
-Repository of sirens and vehicles.lua used for examples with Luxart Vehicle Control. See project here: https://github.com/TrevorBarns/luxart-vehicle-control
+<p align="center">
+<img align="center" width="600" src="https://i.gyazo.com/thumb/1000/91d3bf282aa0e09c130e17f970a6ca58-png.jpg">
+</p>
+
+# Luxart Vehicle Control v3 Extras
+Repository of sirens and LVC SIREN files used for examples with Luxart Vehicle Control. See project here: https://github.com/TrevorBarns/luxart-vehicle-control
 
 Community Upgrade Guides: https://drive.google.com/drive/folders/1trjNXnpmlh_5Q5syXESjwSODdFOFXBdE?usp=sharing
 
