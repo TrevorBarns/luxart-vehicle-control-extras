@@ -1,4 +1,4 @@
-# Type D : Federal Signal SSP + UniTrol + nErgy 400 + Fire (Optional WM-ServerSirens Integration.). 
+# Type D : Federal Signal SSP + UniTrol + SoundOff Signal nErgy 400 + Fire (Optional WM-ServerSirens Integration.). 
 #### ACCURATE SIREN TABLE:
 ```
 SIRENS = {	
