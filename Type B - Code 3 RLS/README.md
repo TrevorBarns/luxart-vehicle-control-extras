@@ -34,4 +34,4 @@ SIREN_ASSIGNMENTS = {
 #### CREDITS:
 * Code 3 RLS Delta by _ShotsFired932_ - [LCPDFR - Federal Signal And Code 3 Sirens 1.0.0](https://www.lcpdfr.com/downloads/gta5mods/audio/22708-federal-signal-and-code-3-sirens/)
 * Misc. Fire by _MrLucky8_ - [LCPDFR - American Fire Sirens 1.1](https://www.lcpdfr.com/downloads/gta5mods/audio/13310-american-fire-sirens)
-* _arkhunter_ for updates and tone name corrections
+*@arkhunter623 for updates and tone name corrections

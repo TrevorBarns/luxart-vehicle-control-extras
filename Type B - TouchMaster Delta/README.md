@@ -34,4 +34,4 @@ SIREN_ASSIGNMENTS = {
 #### CREDITS:
 * TouchMaster Delta by _bakerxgooty_ - [LCPDFR - Touchmaster Delta Siren | FiveM Ready | Studio Recorded 2.0](https://www.lcpdfr.com/downloads/gta5mods/audio/26135-touchmaster-delta-siren-fivem-ready-studio-recorded/)
 * Misc. Fire by _MrLucky8_ - [LCPDFR - American Fire Sirens 1.1](https://www.lcpdfr.com/downloads/gta5mods/audio/13310-american-fire-sirens)
-* _arkhunter_ for updates and tone name corrections
+*@arkhunter623 for updates and tone name corrections
