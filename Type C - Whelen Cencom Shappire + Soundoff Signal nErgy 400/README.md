@@ -1,6 +1,5 @@
 # Type C : Whelen Cencom Shappire + SoundOff Signal nErgy 400 + Fire. 
-#### ACCURATE SIREN TABLE:
-```
+
 #### ACCURATE SIREN TABLE:
 ```
 SIRENS = {	
@@ -38,4 +37,4 @@ SIREN_ASSIGNMENTS = {
 #### CREDITS:
 * All Whelen and Soundoff Signal 400 Series Siren Tones were obtained from the manufacturers site or offical tools.
 * Misc. Fire by _MrLucky8_ - [LCPDFR - American Fire Sirens 1.1](https://www.lcpdfr.com/downloads/gta5mods/audio/13310-american-fire-sirens)
-*@arkhunter623 for updates and tone name corrections
+*[Arkhunter](https://github.com/arkhunter623S) for updates and tone name corrections
