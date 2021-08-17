@@ -62,10 +62,26 @@ SIRENS = {
 
 --ASSIGN SIRENS TO VEHICLES
 SIREN_ASSIGNMENTS = {
---['<gameName>'] = { <airhorn>, <siren1>, <siren2>,...,<sirenN> }
-['LAPD'] = 	{ 1, 2, 3, 4, 5 }, 
-['CAMBRIDGE'] = { 6, 7, 8, 9, 10 }, 
-['PEMBROKE'] = { 11, 12, 13, 14, 15 }, 
-
-['DEFAULT'] = 	{ 1, 2, 3, 4, 5 }, 
+--['<gameName>'] = {airhorn, tone1, tone2, ... , toneN},
+['DEFAULT'] = { 1, 2, 3, 4 }, 
+['FIRETRUK'] = { 12, 13, 14, 11 }, 
+['AMBULAN'] = { 1, 2, 3, 4, 11 }, 
+['LGUARD'] = { 1, 5, 6, 7, 11 },
 }
+
+--[[
+--Example D: Three Department Operation w/ Fire Rescue
+```
+SIREN_ASSIGNMENTS = {
+--['<gameName>'] = {airhorn, tone1, tone2, ... , toneN},
+['DEFAULT'] = { 1, 2, 3, 4 }, 
+['PD#'] = 	{ 1, 2, 3, 4, 5 }, 			-- Whelen 295
+['SO#'] = { 6, 7, 8, 9, 10 }, 			-- Federal Signal FS2000SM
+['HP#'] = { 11, 12, 13, 14, 15 }, 		-- Touchmaster Delta
+['FIRETRUK'] = { 12, 13, 14, 11 } 	
+['AMBULANCE1'] = { 1, 2, 3, 4, 11, 5 } 			--Ambulance 1 w/ department 1 audio (Whelen 295 + Powercall)
+['AMBULANCE2'] = { 6, 7, 8, 9 ,10, 11 } 		--Ambulance 2 w/ department 2 audio (FS2000 + Powercall)
+['AMBULANCE3'] = { 15, 16, 16, 18, 19, 11 } 	--Ambulance 3 w/ department 3 audio (TouchMaster Delta + Powercall)
+}
+```
+]]
