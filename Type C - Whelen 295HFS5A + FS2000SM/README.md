@@ -39,4 +39,4 @@ SIREN_ASSIGNMENTS = {
 * FS2000 by _ShotsFired932_ - [LCPDFR - Federal Signal And Code 3 Sirens 1.0.0](https://www.lcpdfr.com/downloads/gta5mods/audio/22708-federal-signal-and-code-3-sirens/)
 * 295HFS5A by _bakerxgooty_ - [LCPDFR - Whelen 295 Siren | FiveM Ready | Studio Recorded With Real Siren 3.0](https://www.lcpdfr.com/downloads/gta5mods/audio/27116-whelen-295-siren-fivem-ready-studio-recorded-with-real-siren/)
 * Misc. Fire by _MrLucky8_ - [LCPDFR - American Fire Sirens 1.1](https://www.lcpdfr.com/downloads/gta5mods/audio/13310-american-fire-sirens)
-*@arkhunter623 for updates and tone name corrections
+* [Arkhunter](https://github.com/arkhunter623) for updates and tone name corrections

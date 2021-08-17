@@ -57,4 +57,4 @@ Replace the vehicles.awc located in the dlc_wmsirens folder with the one provide
 * All Federal Signal (Unitrol and SSP) and Soundoff Signal 400 Series Siren Tones were obtained from the manafacturs site
 * All Voice lines were obtained from the Federal Signals PathFinder Resource Library
 * Misc. Fire by _MrLucky8_ - [LCPDFR - American Fire Sirens 1.1](https://www.lcpdfr.com/downloads/gta5mods/audio/13310-american-fire-sirens)
-*@arkhunter623 for updates and tone name corrections
+* [Arkhunter](https://github.com/arkhunter623) for updates and tone name corrections

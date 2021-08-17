@@ -34,4 +34,4 @@ SIREN_ASSIGNMENTS = {
 #### CREDITS:
 * Mastercom B by _bakerxgooty_ - [LCPDFR - Mastercom B Code 3 Siren | Professionally Recorded With My Real Siren 1.2](https://www.lcpdfr.com/downloads/gta5mods/audio/23731-mastercom-b-code-3-siren-professionally-recorded-with-my-real-siren/)
 * Misc. Fire by _MrLucky8_ - [LCPDFR - American Fire Sirens 1.1](https://www.lcpdfr.com/downloads/gta5mods/audio/13310-american-fire-sirens)
-*@arkhunter623 for updates and tone name corrections
+* [Arkhunter](https://github.com/arkhunter623) for updates and tone name corrections
