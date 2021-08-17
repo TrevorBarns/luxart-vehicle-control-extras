@@ -1,4 +1,4 @@
-# Type C : Whelen Cencom Shappire + SoundOff Signal nErgy 400 + Fire. 
+# Type C : Whelen Cencom Sappire + SoundOff Signal nErgy 400 + Fire. 
 
 #### ACCURATE SIREN TABLE:
 ```
@@ -24,17 +24,17 @@ SIRENS = {
 SIREN_ASSIGNMENTS = {
 --['<gameName>'] = {tones},
 ['DEFAULT'] = { 1, 2, 3, 4, 5 }, 
-['PD1'] = { 1, 2, 3, 4, 5 }     --Whelen Cencom Shappire 			
+['PD1'] = { 1, 2, 3, 4, 5 }     --Whelen Cencom Sapphire 			
 ['SO1'] = { 6, 7, 8, 9, 10 }    --Soundoff Signal 400 Series Handheld  
 
 ['FIRETRUK'] = { 12, 13, 14, 11 } 	
-['AMBULANCE1'] = { 1, 2, 3, 4, 5, 11 } 	--Ambulance 1 w/ department 1 audio (Whelen Cencom Shappire + Powercall)
+['AMBULANCE1'] = { 1, 2, 3, 4, 5, 11 } 	--Ambulance 1 w/ department 1 audio (Whelen Cencom Shapphire + Powercall)
 ['AMBULANCE2'] = { 6, 7, 8, 9, 10, 11 } --Ambulance 2 w/ department 2 audio (Soundoff Signal 400 series + Powercall)
 }
 ```
 
 
 #### CREDITS:
-* All Whelen and Soundoff Signal 400 Series Siren Tones were obtained from the manufacturers site or offical tools.
+* All Whelen Cencom Sapphire and Soundoff Signal 400 Series Siren Tones were obtained from the manufacturers site or offical tools.
 * Misc. Fire by _MrLucky8_ - [LCPDFR - American Fire Sirens 1.1](https://www.lcpdfr.com/downloads/gta5mods/audio/13310-american-fire-sirens)
 * [Arkhunter](https://github.com/arkhunter623) for updates and tone name corrections

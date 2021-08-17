@@ -60,11 +60,11 @@ SIREN_ASSIGNMENTS = {
 SIREN_ASSIGNMENTS = {
 --['<gameName>'] = {tones},
 ['DEFAULT'] = { 1, 2, 3, 4, 5 }, 
-['PD1'] = { 1, 2, 3, 4, 5 }     --Whelen Cencom Sahppire				
+['PD1'] = { 1, 2, 3, 4, 5 }     --Whelen Cencom Sapphire				
 ['SO1'] = { 6, 7, 8, 9, 10 }    --Soundoff Signal 400 Series Handheld  
 
 ['FIRETRUK'] = { 12, 13, 14, 11 } 	
-['AMBULANCE1'] = { 1, 2, 3, 4, 5, 11 } 	--Ambulance 1 w/ department 1 audio (Whelen Cencom Shappire + Powercall)
+['AMBULANCE1'] = { 1, 2, 3, 4, 5, 11 } 	--Ambulance 1 w/ department 1 audio (Whelen Cencom Sapphire + Powercall)
 ['AMBULANCE2'] = { 6, 7, 8, 9, 10, 11 } --Ambulance 2 w/ department 2 audio (Soundoff Signal 400 series + Powercall)
 }
 ]]
