@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table.steelBlueCols {
+  border: 4px solid #555555;
+  background-color: #555555;
+  width: 550px;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.steelBlueCols td, table.steelBlueCols th {
+  border: 1px solid #555555;
+  padding: 5px 10px;
+}
+table.steelBlueCols tbody td {
+  font-size: 19px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+table.steelBlueCols tr:nth-child(even) {
+  background: #398AA4;
+}
+table.steelBlueCols thead {
+    border-bottom: 10px solid #282828;
+}
+table.steelBlueCols thead th {
+  font-size: 29px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  border-left: 2px solid #398AA4;
+}
+table.steelBlueCols thead th:first-child {
+  border-left: none;
+}
+
+table.steelBlueCols tfoot td {
+  font-size: 13px;
+}
+table.steelBlueCols tfoot .links {
+  text-align: right;
+}
+table.steelBlueCols tfoot .links a{
+  display: inline-block;
+  background: #FFFFFF;
+  color: #398AA4;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+</style>
+</head>
+<body>
+<table class="steelBlueCols">
+	<thead>
+	<tr><th colspan=2>Federal Signal SSP + UniTrol + nErgy 400</th></tr>
+	<tr>
+	<th>Name</th>
+	<th>Audio</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+	<td>SSP-Airhorn</td><td><audio controls name="sirens"><source src="AIRHORN_EQD.wav" type="audio/wav"></audio></td></tr>
+	<tr>
+	<td>SSP-Wail</td><td><audio controls name="sirens"><source src="SIREN_PA20A_WAIL.wav" type="audio/wav"></audio>
+	<tr>
+	<td>SSP-Yelp</td><td><audio controls name="sirens"><source src="SIREN_2.wav" type="audio/wav"></audio>
+	<tr>
+	<td>SSP-Priority</td><td><audio controls name="sirens"><source src="POLICE_WARNING.wav" type="audio/wav"></audio>
+	<tr>
+	<td>UNI-Wail</td><td><audio controls name="sirens"><source src="SIREN_WAIL_01.wav" type="audio/wav"></audio>
+	<tr>
+	<td>UNI-Yelp</td><td><audio controls name="sirens"><source src="SIREN_WAIL_02.wav" type="audio/wav"></audio>
+	<tr>
+	<td>UNI-Futura</td><td><audio controls name="sirens"><source src="SIREN_WAIL_03.wav" type="audio/wav"></audio>
+	<tr>
+	<td>nErgy-Wail</td><td><audio controls name="sirens"><source src="SIREN_QUICK_01.wav" type="audio/wav"></audio>
+	<tr>
+	<td>nErgy-Yelp</td><td><audio controls name="sirens"><source src="SIREN_QUICK_02.wav" type="audio/wav"></audio>
+	<tr>
+	<td>nErgy-Piercer</td><td><audio controls name="sirens"><source src="SIREN_QUICK_03.wav" type="audio/wav"></audio>
+	<tr><th colspan=2 style="color: white; text-size: 19px;">WM-ServerSirens</th></tr>
+	<tr>
+	<td>UNI-Hetro</td><td><audio controls name="sirens"><source src="SIREN_ALPHA.wav" type="audio/wav"></audio>
+	<tr>
+	<td>Powercall-RUMBLER</td><td><audio controls name="sirens"><source src="SIREN_BRAVO.wav" type="audio/wav"></audio>
+	<tr>
+	<td>Do Not Interfere</td><td><audio controls name="sirens"><source src="SIREN_CHARLIE.wav" type="audio/wav"></audio>
+	<tr>
+	<td>Leave Vicinity</td><td><audio controls name="sirens"><source src="SIREN_DELTA.wav" type="audio/wav"></audio>
+	<tr>
+	<td>No Loitering</td><td><audio controls name="sirens"><source src="SIREN_ECHO.wav" type="audio/wav"></audio>
+	<tr>
+	<td>Pull To The Right</td><td><audio controls name="sirens"><source src="SIREN_FOXTROT.wav" type="audio/wav"></audio>
+	<tr>
+	<td>Slow Down</td><td><audio controls name="sirens"><source src="SIREN_GOLF.wav" type="audio/wav"></audio>
+	<tr>
+	<td>Police Canine Search</td><td><audio controls name="sirens"><source src="SIREN_HOTEL.wav" type="audio/wav"></audio>
+	</tbody>
+	</tr>
+</table>
+
+
+<script>
+document.addEventListener('play', function(e){  
+    var audios = document.getElementsByTagName('audio');  
+    for(var i = 0, len = audios.length; i < len;i++){  
+		audios[i].volume = 0.02;
+        if(audios[i] != e.target){  
+            audios[i].pause();  
+        }  
+    }  
+}, true);
+</script>
+
+</body>
+</html>
+
+
