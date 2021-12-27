@@ -1,4 +1,4 @@
-# Whelen 295HFS5a + FS2000SM + TouchMaster Delta, Code 3 Mastercom B, Whelen Cencom Gold (w/Fire Rescue). 
+# Whelen 295HFS5a, FS2000SM, TouchMaster Delta, Code 3 Mastercom B, Whelen Cencom Gold (w/Fire Rescue). 
 #### SIREN TABLE:
 ```
 SIRENS = {	
