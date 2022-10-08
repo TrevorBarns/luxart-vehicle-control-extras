@@ -2,21 +2,25 @@
 <img align="center" width="600" src="https://i.gyazo.com/thumb/1000/91d3bf282aa0e09c130e17f970a6ca58-png.jpg">
 </p>
 
-# Luxart Vehicle Control v3 Extras
-Repository of sirens and LVC SIREN files used for examples with Luxart Vehicle Control. See project here: https://github.com/TrevorBarns/luxart-vehicle-control
+# Luxart Vehicle Control Extras
+### Documentation and About: [Welcome to Luxart Engineering - Gitbook](https://www.luxartengineering.com/)
 
-Community Upgrade Guides: https://drive.google.com/drive/folders/1trjNXnpmlh_5Q5syXESjwSODdFOFXBdE?usp=sharing
+<a href="https://www.luxartengineering.com/"><img target="_blank" src="https://i.imgur.com/CwbNKa9.png"></a>
 
-## LVC Siren Package Types
-### Type A: Basic Operation: operate same as v2 no additional siren tones implemented.
-### Type B: Maximize LEO Tones: most tones for LEOs (designed for single siren operation).
-### Type C: Two Department Operation w/ Fire Rescue (1/2 of tones assigned to one department, 1/2 to the other while retaining Fire Rescue Tones)
-### Type D: Three Department Operation w/ Shared Airhorn & Fire Rescue (1/3 tones assigned to department X, 1/3 to department Y, 1/3 to department Z; all sharing one airhorn while retaining Fire Rescue Tones) 
- 
-## GTA V vehicles.awc Restrictions
-Default sirens (what LVC uses) are located in `RESIDENT.rpf/vehicles.awc`. GTA V has a hard cap on vehicles.awc size: __16,132kb__. Any vehicles.awc over that even by 1kb will result in the lose of audio. Always ensure your vehicles.awc is below 16,133kb when installing new sirens. All RESIDENT.rpfs included in this repo will satisify that requirement. 
-### How to reduce vehicle.awc file size:
-- __Use shorter siren tones__ *(shorter tones = smaller file sizes) [You can use Audacity to accomplish this]*
-- __Reduce siren tone quality__ *(lowering bitrate will reduce file size but too much can result in loss of audio quality) I recommend going no lower than 22050Hz. [You can use Audacity to accomplish this]*
-- __Reduce other ambient sound quality__ *(lower bitrate of unused sounds like subway doors) [You can use Audacity to accomplish this]*
-- __Replace other ambient sound(s) with empty WAV files__ *(some ambient sounds are not used in FiveM replacing things like subway doors with empty WAVs can save ~125kb)*
+### Support, Suggestions, and Updates: [TrevorBarns Development Discord](https://discord.link/lvc/)
+<a href="https://discord.link/lvc"><img target="_blank" src="https://discordapp.com/api/guilds/344333824911605762/widget.png?style=banner3"></a>
+
+## Other Resources
+* [Luxart Vehicle Control: Fleet](https://github.com/TrevorBarns/luxart-vehicle-control-fleet)
+* [Luxart Vehicle Control - Siren Packs](https://github.com/TrevorBarns/luxart-vehicle-control-extras)
+* [Server Sided Audio Tester](https://github.com/TrevorBarns/Server-Side-Audio-Tester)
+* [zScoreboard w/activity & ping](https://github.com/TrevorBarns/z-scoreboard)
+
+## Credits:
+Luxart Vehicle Control was an ingenious creation by __Lt. Caine__! Thank you! 
+
+ELS Clicks added by __Faction__, this added realism pushed me to get into developing in the first place. Thank you!
+
+__All credit to those above who contributed there projects can be found here:__
+* Luxart Vehicle Control (Original Release) by Lt. Caine: https://forum.cfx.re/t/release-luxart-vehicle-control/17304
+* Luxart Vehicle Control ELS Clicks by Faction: https://forum.cfx.re/t/release-luxart-vehicle-control-els-clicks/921644
