@@ -1,18 +1,26 @@
 # Whelen 295HFS5a, FS2000SM, TouchMaster Delta, Code 3 Mastercom B, Whelen Cencom Gold (w/Fire Rescue). 
 #### SIREN TABLE:
-```
+```lua
+RequestScriptAudioBank('DLC_SERVERSIDEAUDIO\\OISS_SSA_VEHAUD_LSPD_NEW', false)
+RequestScriptAudioBank('DLC_SERVERSIDEAUDIO\\OISS_SSA_VEHAUD_LSSD_NEW', false)
+RequestScriptAudioBank('DLC_SERVERSIDEAUDIO\\OISS_SSA_VEHAUD_BCSO_NEW', false)
+RequestScriptAudioBank('DLC_SERVERSIDEAUDIO\\OISS_SSA_VEHAUD_SAHP_NEW', false)
+RequestScriptAudioBank('DLC_SERVERSIDEAUDIO\\OISS_SSA_VEHAUD_FIB_NEW', false)
+RequestScriptAudioBank('DLC_SERVERSIDEAUDIO\\OISS_SSA_VEHAUD_LSFD_NEW', false)
+RequestScriptAudioBank('DLC_SERVERSIDEAUDIO\\OISS_SSA_VEHAUD_BCFD_NEW', false)
+
 SIRENS = {	
 --[[1]]   { Name = 'Airhorn',       String = 'SIRENS_AIRHORN',                              Ref = 0 },
 --[[2]]   { Name = 'Wail',          String = 'VEHICLES_HORNS_SIREN_1',                      Ref = 0 },
 --[[3]]   { Name = 'Yelp',          String = 'VEHICLES_HORNS_SIREN_2',                      Ref = 0 },
 --[[4]]   { Name = 'Priority',      String = 'VEHICLES_HORNS_POLICE_WARNING',               Ref = 0 },
---[[5]]   { Name = 'CustomA',  		String = 'RESIDENT_VEHICLES_SIREN_WAIL_01',             Ref = 0 },
+--[[5]]   { Name = 'CustomA',  	    String = 'RESIDENT_VEHICLES_SIREN_WAIL_01',             Ref = 0 },
 --[[6]]   { Name = 'CustomB',       String = 'RESIDENT_VEHICLES_SIREN_WAIL_02',             Ref = 0 },
---[[7]]   { Name = 'CustomA',    	String = 'RESIDENT_VEHICLES_SIREN_WAIL_03',             Ref = 0 },
---[[8]]   { Name = 'CustomA',    	String = 'RESIDENT_VEHICLES_SIREN_QUICK_01',            Ref = 0 },
---[[9]]   { Name = 'CustomA',    	String = 'RESIDENT_VEHICLES_SIREN_QUICK_02',            Ref = 0 },
---[[10]]  { Name = 'CustomA',    	String = 'RESIDENT_VEHICLES_SIREN_QUICK_03',            Ref = 0 },
---[[11]]  { Name = 'CustomA',    	String = 'VEHICLES_HORNS_AMBULANCE_WARNING',            Ref = 0 },
+--[[7]]   { Name = 'CustomA',       String = 'RESIDENT_VEHICLES_SIREN_WAIL_03',             Ref = 0 },
+--[[8]]   { Name = 'CustomA',       String = 'RESIDENT_VEHICLES_SIREN_QUICK_01',            Ref = 0 },
+--[[9]]   { Name = 'CustomA',       String = 'RESIDENT_VEHICLES_SIREN_QUICK_02',            Ref = 0 },
+--[[10]]  { Name = 'CustomA',       String = 'RESIDENT_VEHICLES_SIREN_QUICK_03',            Ref = 0 },
+--[[11]]  { Name = 'CustomA',       String = 'VEHICLES_HORNS_AMBULANCE_WARNING',            Ref = 0 },
 --[[12]]  { Name = 'FireHorn',      String = 'VEHICLES_HORNS_FIRETRUCK_WARNING',            Ref = 0 },
 --[[13]]  { Name = 'Fire Yelp',     String = 'RESIDENT_VEHICLES_SIREN_FIRETRUCK_WAIL_01',   Ref = 0 },
 --[[14]]  { Name = 'Fire Yelp',     String = 'RESIDENT_VEHICLES_SIREN_FIRETRUCK_QUICK_01',  Ref = 0 },
