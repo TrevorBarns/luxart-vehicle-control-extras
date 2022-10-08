@@ -7,6 +7,6 @@ ta_combokey = false
 ta_sync_radius_default = 20
 
 
---[[ Documentation / Wiki: https://github.com/TrevorBarns/luxart-vehicle-control/wiki/Traffic-Advisor ]]
+--[[ Documentation / Wiki: https://docs.luxartengineering.com/shared-plugins/traffic-advisor ]]
 
 TA_ASSIGNMENTS = { }

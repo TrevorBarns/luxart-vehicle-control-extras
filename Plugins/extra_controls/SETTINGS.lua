@@ -3,7 +3,7 @@ ec_masterswitch = false
 --	Determines if extra_integration plugin can be activated.
 allow_custom_controls = true
 --	Enabled/Disables menu which allows for custom controls to be set.
---[[ Documentation / Wiki: https://github.com/TrevorBarns/luxart-vehicle-control/wiki/Extra-Controls ]]
+--[[ Documentation / Wiki: https://docs.luxartengineering.com/shared-plugins/extra-controls ]]
 
 	EXTRA_CONTROLS = {
 		['DEFAULT'] = { 

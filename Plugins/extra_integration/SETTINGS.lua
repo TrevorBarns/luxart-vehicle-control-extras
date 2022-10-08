@@ -25,7 +25,7 @@ auto_park = true
 default_blackout_control = ''
 --	Toggles vehicles headlights, brakelights controls: https://pastebin.com/u9ewvWWZ (Default: None/Disabled)
 
---[[ Documentation / Wiki: https://github.com/TrevorBarns/luxart-vehicle-control/wiki/Extra-Integrations ]]
+--[[ Documentation / Wiki: https://docs.luxartengineering.com/shared-plugins/extra-integrations ]]
 EXTRA_ASSIGNMENTS = {
 	['DEFAULT'] = {}	-- autopark functionality requires default table
 	--[<gameName>] = { 
