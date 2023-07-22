@@ -35,6 +35,7 @@ if ei_masterswitch then
 		['Reverse'] 	= false,
 		['RIndicator'] 	= false,
 		['LIndicator'] 	= false,
+		['Stopped'] 	= false,
 		['Takedowns'] 	= false,
 		['DSeat']		= false,
 		['DDoor']		= false,
@@ -131,6 +132,15 @@ if ei_masterswitch then
 								elseif trigger_table.active['LIndicator'] or trigger_table.active['RIndicator'] then
 									EI:SetState('LIndicator', false)
 									EI:SetState('RIndicator', false)											
+								end
+							end
+							------------------------------------------------------------
+							--STOPPED--
+							if enabled_triggers['Stopped'] then
+								if GetEntitySpeed(veh) < 0.1 then
+									EI:SetState('Stopped', true)
+								elseif trigger_table.active['Stopped'] then
+									EI:SetState('Stopped', false)
 								end
 							end
 							------------------------------------------------------------
