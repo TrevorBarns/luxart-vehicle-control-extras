@@ -103,7 +103,7 @@ if ta_masterswitch then
 	end) 
 
 	RegisterCommand('lvctogleftta', function(source, args, rawCommand)
-		if ta_combokey == false or IsControlPressed(0, ta_combokey) then
+		if taExtras.left and ta_combokey == false or IsControlPressed(0, ta_combokey) then
 			if player_is_emerg_driver and ( taExtras.lightbar ~= nil or taExtras.lightbar == -1 ) and veh ~= nil and not IsMenuOpen() and not key_lock then
 				if ( IsVehicleExtraTurnedOn(veh, taExtras.lightbar) or taExtras.lightbar == -1 ) and IsVehicleSirenOn(veh) then
 					if state_ta[veh] == 1 then
@@ -122,7 +122,7 @@ if ta_masterswitch then
 	end)
 
 	RegisterCommand('lvctogrightta', function(source, args, rawCommand)
-		if ta_combokey == false or IsControlPressed(0, ta_combokey) then
+		if taExtras.middle and ta_combokey == false or IsControlPressed(0, ta_combokey) then
 			if player_is_emerg_driver and ( taExtras.lightbar ~= nil or taExtras.lightbar == -1 ) and veh ~= nil and not IsMenuOpen() and not key_lock then
 				if ( IsVehicleExtraTurnedOn(veh, taExtras.lightbar) or taExtras.lightbar == -1 ) and IsVehicleSirenOn(veh) then
 					if state_ta[veh] == 2 then
@@ -141,7 +141,7 @@ if ta_masterswitch then
 	end)
 
 	RegisterCommand('lvctogmidta', function(source, args, rawCommand)
-		if ta_combokey == false or IsControlPressed(0, ta_combokey) then
+		if taExtras.right ta_combokey == false or IsControlPressed(0, ta_combokey) then
 			if player_is_emerg_driver and ( taExtras.lightbar ~= nil or taExtras.lightbar == -1 ) and veh ~= nil and not IsMenuOpen() and not key_lock then
 				if ( IsVehicleExtraTurnedOn(veh, taExtras.lightbar) or taExtras.lightbar == -1 ) and IsVehicleSirenOn(veh) then
 					if state_ta[veh] == 3 then
